@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Server Queue</title>
+    <link rel="stylesheet" href="queue.css">
+</head>
+<body>
+    <div id="queue-container" class="hidden">
+        <div class="queue-box">
+            <div class="queue-header">
+                <h1>Server Queue</h1>
+            </div>
+            <div class="queue-content">
+                <div class="server-info">
+                    <span id="server-name">Your Server Name</span>
+                </div>
+                <div class="position-info">
+                    <span id="position">0</span>
+                    <span>/</span>
+                    <span id="total">0</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progress"></div>
+                </div>
+                <div class="message" id="message"></div>
+                <div id="error-container" class="error-container hidden">
+                    <a href="https://discord.gg/example" target="_blank" class="discord-button">Join Discord</a>
+                </div>
+            </div>
+            <div class="queue-footer">
+                <div class="social-links">
+                    <a href="#" class="discord">Discord</a>
+                    <a href="#" class="website">Website</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="queue.js"></script>
+</body>
+</html>

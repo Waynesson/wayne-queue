@@ -11,6 +11,9 @@ An advanced queue system for FiveM servers with Discord integration and priority
 - 🛡️ Secure connection handling
 - ⏱️ Configurable timeout settings
 
+## Preview
+[Add screenshots or GIFs of your queue system here]
+
 ## Requirements
 - FiveM Server
 - [Badger_Discord_API](https://github.com/JaredScar/Badger_Discord_API)
